@@ -1,0 +1,16 @@
+﻿  PartilceSystem.cpp
+E:\vsProject\GraduationProject\PartilceSystem.h(195,40): warning C4101: “e”: 未引用的局部变量
+E:\vsProject\GraduationProject\PartilceSystem.cpp(129,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\vsProject\GraduationProject\PartilceSystem.cpp(155,35): warning C4305: “参数”: 从“double”到“GLfloat”截断
+E:\vsProject\GraduationProject\PartilceSystem.cpp(197,14): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\vsProject\GraduationProject\PartilceSystem.cpp(198,14): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\vsProject\GraduationProject\PartilceSystem.cpp(202,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\vsProject\GraduationProject\PartilceSystem.cpp(203,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\vsProject\GraduationProject\PartilceSystem.cpp(205,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\vsProject\GraduationProject\PartilceSystem.cpp(206,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\vsProject\GraduationProject\PartilceSystem.cpp(215,28): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\vsProject\GraduationProject\PartilceSystem.cpp(345,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\vsProject\GraduationProject\PartilceSystem.cpp(362,36): warning C4305: “参数”: 从“double”到“float”截断
+E:\vsProject\GraduationProject\PartilceSystem.cpp(375,37): warning C4305: “参数”: 从“double”到“float”截断
+E:\vsProject\GraduationProject\PartilceSystem.cpp(382,35): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  GraduationProject.vcxproj -> E:\vsProject\GraduationProject\Debug\GraduationProject.exe

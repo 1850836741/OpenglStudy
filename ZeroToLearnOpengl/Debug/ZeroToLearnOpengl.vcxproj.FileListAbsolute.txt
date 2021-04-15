@@ -1,0 +1,2 @@
+E:\vsProject\ZeroToLearnOpengl\Debug\ZeroToLearnOpengl.exe
+E:\vsProject\ZeroToLearnOpengl\Debug\ZeroToLearnOpengl.pdb

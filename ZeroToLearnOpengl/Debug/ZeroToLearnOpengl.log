@@ -1,0 +1,10 @@
+﻿glew32s.lib(glew.obj) : error LNK2005: _glewInit@0 已经在 glew32.lib(glew32.dll) 中定义
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+test.obj : error LNK2019: 无法解析的外部符号 __imp__glDisable@4，函数 _main 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 __imp__glDrawArrays@12，函数 _main 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 __imp__glEnable@4，函数 _main 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 __imp__glFlush@0，函数 _main 中引用了该符号
+glew32s.lib(glew.obj) : error LNK2019: 无法解析的外部符号 __imp__wglGetProcAddress@4，函数 __glewInit_GL_VERSION_1_2 中引用了该符号
+glew32s.lib(glew.obj) : error LNK2019: 无法解析的外部符号 __imp__glGetString@4，函数 _glewGetExtension@4 中引用了该符号
+glew32s.lib(glew.obj) : error LNK2019: 无法解析的外部符号 __imp__wglGetCurrentDC@0，函数 _wglewGetExtension@4 中引用了该符号
+E:\vsProject\ZeroToLearnOpengl\Debug\ZeroToLearnOpengl.exe : fatal error LNK1120: 7 个无法解析的外部命令

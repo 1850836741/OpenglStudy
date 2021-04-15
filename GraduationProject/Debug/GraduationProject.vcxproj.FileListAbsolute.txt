@@ -1,0 +1,2 @@
+E:\vsProject\GraduationProject\Debug\GraduationProject.exe
+E:\vsProject\GraduationProject\Debug\GraduationProject.pdb

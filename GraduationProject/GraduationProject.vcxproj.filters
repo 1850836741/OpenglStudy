@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="源文件\realization">
+      <UniqueIdentifier>{43c5dc06-66f4-478b-ba86-377befd3c702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders">
+      <UniqueIdentifier>{dd6180d8-c02b-46ec-9e37-41b91901eda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders\baseShader">
+      <UniqueIdentifier>{035449fc-8782-4e59-a75b-66c2439fa31b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders\skyBoxShader">
+      <UniqueIdentifier>{8437ce9c-29de-4135-a09c-e712a4f280f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\resource">
+      <UniqueIdentifier>{c37469bf-8880-4c6c-8f1a-b7c4948313f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\shaders\blinnPhongShader">
+      <UniqueIdentifier>{9b62b404-58ba-40e4-96c9-86cb7f508c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders\transparentShader">
+      <UniqueIdentifier>{bf1bc392-f0b8-4b26-9946-54bdb249521e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders\fresnelShader">
+      <UniqueIdentifier>{c81bc3e6-d0d6-47eb-a695-afee993dd1f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders\shadowShader">
+      <UniqueIdentifier>{9c30e391-00e8-4418-9f62-da98e8f2dce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders\PBR">
+      <UniqueIdentifier>{89a7c967-27c3-421d-af9d-4ef1ad47232a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders\particle">
+      <UniqueIdentifier>{2f710b6e-0b0b-4b6b-8cff-e257056d6f8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL\Libraries\Libs\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>源文件\realization</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>源文件\realization</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>源文件\realization</Filter>
+    </ClCompile>
+    <ClCompile Include="gl3w.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PartilceSystem.cpp">
+      <Filter>源文件\realization</Filter>
+    </ClCompile>
+    <ClCompile Include="particleMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\OpenGL\Libraries\Includes\glad\glad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rtw_stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gl3w.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glcorearb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PartilceSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="skyBoxFrag.frag">
+      <Filter>源文件\shaders\skyBoxShader</Filter>
+    </None>
+    <None Include="skyBoxVert.vert">
+      <Filter>源文件\shaders\skyBoxShader</Filter>
+    </None>
+    <None Include="defaultVertex.vert">
+      <Filter>源文件\shaders\baseShader</Filter>
+    </None>
+    <None Include="defaultFragment.frag">
+      <Filter>源文件\shaders\baseShader</Filter>
+    </None>
+    <None Include="testV.vert">
+      <Filter>源文件\shaders\baseShader</Filter>
+    </None>
+    <None Include="testF.frag">
+      <Filter>源文件\shaders\baseShader</Filter>
+    </None>
+    <None Include="blinnPhongVertex.vert">
+      <Filter>源文件\shaders\blinnPhongShader</Filter>
+    </None>
+    <None Include="blinnPhongFragment.frag">
+      <Filter>源文件\shaders\blinnPhongShader</Filter>
+    </None>
+    <None Include="fresnelVertex.vert">
+      <Filter>源文件\shaders\fresnelShader</Filter>
+    </None>
+    <None Include="fresnelFragment.frag">
+      <Filter>源文件\shaders\fresnelShader</Filter>
+    </None>
+    <None Include="transparentVertex.vert">
+      <Filter>源文件\shaders\transparentShader</Filter>
+    </None>
+    <None Include="transparentFragment.frag">
+      <Filter>源文件\shaders\transparentShader</Filter>
+    </None>
+    <None Include="baseShadowVertex.vert">
+      <Filter>源文件\shaders\shadowShader</Filter>
+    </None>
+    <None Include="baseShadowFragment.frag">
+      <Filter>源文件\shaders\shadowShader</Filter>
+    </None>
+    <None Include="baseShadowGeometry.geom">
+      <Filter>源文件\shaders\shadowShader</Filter>
+    </None>
+    <None Include="shadowVertex.vert">
+      <Filter>源文件\shaders\shadowShader</Filter>
+    </None>
+    <None Include="shadowFragment.frag">
+      <Filter>源文件\shaders\shadowShader</Filter>
+    </None>
+    <None Include="pbr.vert">
+      <Filter>源文件\shaders\PBR</Filter>
+    </None>
+    <None Include="pbr.frag">
+      <Filter>源文件\shaders\PBR</Filter>
+    </None>
+    <None Include="background.vert">
+      <Filter>源文件\shaders\PBR</Filter>
+    </None>
+    <None Include="background.frag">
+      <Filter>源文件\shaders\PBR</Filter>
+    </None>
+    <None Include="cubemap.vert">
+      <Filter>源文件\shaders\PBR</Filter>
+    </None>
+    <None Include="equirectangular_to_cubemap.frag">
+      <Filter>源文件\shaders\PBR</Filter>
+    </None>
+    <None Include="irradiance_convolution.frag">
+      <Filter>源文件\shaders\PBR</Filter>
+    </None>
+    <None Include="prefilter.frag">
+      <Filter>源文件\shaders\PBR</Filter>
+    </None>
+    <None Include="brdf.frag">
+      <Filter>源文件\shaders\PBR</Filter>
+    </None>
+    <None Include="brdf.vert">
+      <Filter>源文件\shaders\PBR</Filter>
+    </None>
+    <None Include="MedianValue.vert">
+      <Filter>源文件\shaders\particle</Filter>
+    </None>
+    <None Include="GeneralPhysics.vert">
+      <Filter>源文件\shaders\particle</Filter>
+    </None>
+    <None Include="GeneralPhysics.frag">
+      <Filter>源文件\shaders\particle</Filter>
+    </None>
+    <None Include="test.vert">
+      <Filter>源文件\shaders\particle</Filter>
+    </None>
+    <None Include="WaterPhysics.vert">
+      <Filter>源文件\shaders\particle</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\Sunshine\Desktop\myTexture\skybox\left.jpg">
+      <Filter>源文件\resource</Filter>
+    </Image>
+    <Image Include="C:\Users\Sunshine\Desktop\myTexture\skybox\right.jpg">
+      <Filter>源文件\resource</Filter>
+    </Image>
+    <Image Include="C:\Users\Sunshine\Desktop\myTexture\skybox\top.jpg">
+      <Filter>源文件\resource</Filter>
+    </Image>
+    <Image Include="C:\Users\Sunshine\Desktop\myTexture\skybox\back.jpg">
+      <Filter>源文件\resource</Filter>
+    </Image>
+    <Image Include="C:\Users\Sunshine\Desktop\myTexture\skybox\bottom.jpg">
+      <Filter>源文件\resource</Filter>
+    </Image>
+    <Image Include="C:\Users\Sunshine\Desktop\myTexture\skybox\front.jpg">
+      <Filter>源文件\resource</Filter>
+    </Image>
+    <Image Include="C:\Users\Sunshine\Desktop\myTexture\ibl_hdr_radiance.png">
+      <Filter>源文件\resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
